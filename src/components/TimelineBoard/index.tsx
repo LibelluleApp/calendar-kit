@@ -74,14 +74,6 @@ const TimelineBoard = ({
         />
       );
 
-      rows.push(
-        <HorizontalLine
-          key={`${i}.5`}
-          borderColor={colors.border}
-          index={i + 0.5}
-          height={timeIntervalHeight}
-        />
-      );
     }
 
     rows.push(
